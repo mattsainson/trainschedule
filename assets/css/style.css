@@ -1,0 +1,46 @@
+body {
+    background-image: url(../images/homeheaderv4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: left;
+    margin-top: 50px;
+    background-color: rgba(30, 39, 22, 2);
+    padding: 10px 0px 10px 0px;
+    color: white;
+}
+h2 {
+    padding-top: 10px;
+}
+#logo {
+    padding: 5px 10px 10px 10px; 
+}
+#sched-head {
+    font-weight: bold;
+}
+.clock {
+    font-size: 30px;
+    font-style: oblique;
+    color: white;
+}
+.container {
+    width: 60%;
+}
+.row {
+    background-color: rgba(30, 39, 22, 0.5);
+    padding-left: 10px 0px 0px 10px;
+}
+.form-group {
+    max-width: 300px;
+}
+.submit {
+    margin-bottom: 10px;
+}
+.sched-data {
+    background: white;
+}
+.sched-row {
+    height: 50px;
+    color: white;
+}
