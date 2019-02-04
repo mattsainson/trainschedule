@@ -5,7 +5,7 @@ body {
 }
 h1 {
     text-align: left;
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: rgba(30, 39, 22, 2);
     padding: 10px 0px 10px 0px;
     color: white;
@@ -25,11 +25,26 @@ h2 {
     color: white;
 }
 .container {
-    width: 60%;
+    width: 80%;
 }
+.remove {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.remove:hover {
+    opacity: 1.0;
+}
+  
 .row {
     background-color: rgba(30, 39, 22, 0.5);
     padding-left: 10px 0px 0px 10px;
+}
+.myrow {
+    background-color: rgba(30, 39, 22, 0);
+    padding-left: 10px 0px 0px 10px;
+}
+.mycol {
+    background-color: rgba(113, 122, 104, 0.75);
 }
 .form-group {
     max-width: 300px;
@@ -43,4 +58,17 @@ h2 {
 .sched-row {
     height: 50px;
     color: white;
+    padding-top: 10px;
+    opacity: 1.0;
+}
+.sched-row:hover {
+    opacity: .4;
+}
+
+.myheadrow {
+    margin-top: 10px;
+    color: black;
+    padding: 10px 0px 0px 10px;
+    background-color: rgba(113, 122, 104, 0.75);
+    
 }
